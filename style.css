@@ -1,0 +1,56 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f9f9f9;
+  padding: 20px;
+}
+
+.blog-post {
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 0 10px #ccc;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.blog-post img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+  margin-bottom: 15px;
+}
+
+h2 {
+  color: #333;
+}
+
+.read-more, .edit-btn, .delete-btn {
+  padding: 8px 12px;
+  border: none;
+  border-radius: 5px;
+  margin: 5px 5px 0 0;
+  color: white;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.read-more {
+  background-color: #007BFF;
+}
+.read-more:hover {
+  background-color: #0056b3;
+}
+
+.edit-btn {
+  background-color: #28A745;
+}
+.edit-btn:hover {
+  background-color: #1e7e34;
+}
+
+.delete-btn {
+  background-color: #DC3545;
+}
+.delete-btn:hover {
+  background-color: #c82333;
+}
+
